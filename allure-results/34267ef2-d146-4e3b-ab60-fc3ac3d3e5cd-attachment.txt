@@ -1,0 +1,155 @@
+[INFO ] 2024-06-19 23:10:37.868 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.8.2.20240411[22m                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-06-19 23:10:37.876 [] ReportManager - Checking for engine updates...
+[INFO ] 2024-06-19 23:10:37.899 [] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2024-06-19 23:10:37.899 [] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2024-06-19 23:10:37.912 [main] ReportManager - TestNG run detected...
+[INFO ] 2024-06-19 23:10:38.132 [main] Utils - [TestNG] Running:
+  C:\Users\CodeLab\OneDrive\Desktop\Automtionscript\MergingRolesQA\nopcommerce\testng.xml
+
+[INFO ] 2024-06-19 23:10:38.170 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-06-19 23:10:38.213 [main] ReportManager - Initializing Important Links...
+[INFO ] 2024-06-19 23:10:38.221 [main] ReportManager - Initializing Properties...
+[INFO ] 2024-06-19 23:10:38.360 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of startdriver configuration method                                             
+                                                           'AddToCartTest.Startdriver'                                                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[DEBUG] 2024-06-19 23:10:38.396 [main] WebDriverManager - Using WebDriverManager 5.8.0
+[DEBUG] 2024-06-19 23:10:38.775 [main] ResolutionCache - Resolution chrome=125 in cache (valid until 23:59:50 19/06/2024 EEST)
+[DEBUG] 2024-06-19 23:10:38.775 [main] ResolutionCache - Resolution chrome125=125.0.6422.141 in cache (valid until 21:48:06 20/06/2024 EEST)
+[INFO ] 2024-06-19 23:10:38.776 [main] WebDriverManager - Using chromedriver 125.0.6422.141 (resolved driver for Chrome 125)
+[DEBUG] 2024-06-19 23:10:38.791 [main] WebDriverManager - Driver chromedriver 125.0.6422.141 found in cache
+[INFO ] 2024-06-19 23:10:38.793 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\CodeLab\.cache\selenium\chromedriver\win64\125.0.6422.141\chromedriver.exe
+[DEBUG] 2024-06-19 23:10:38.805 [main] WebDriverManager - Using WebDriverManager 5.8.0
+[DEBUG] 2024-06-19 23:10:38.816 [main] ResolutionCache - Resolution chrome=125 in cache (valid until 23:59:50 19/06/2024 EEST)
+[DEBUG] 2024-06-19 23:10:38.817 [main] ResolutionCache - Resolution chrome125=125.0.6422.141 in cache (valid until 21:48:06 20/06/2024 EEST)
+[INFO ] 2024-06-19 23:10:38.817 [main] WebDriverManager - Using chromedriver 125.0.6422.141 (resolved driver for Chrome 125)
+[DEBUG] 2024-06-19 23:10:38.830 [main] WebDriverManager - Driver chromedriver 125.0.6422.141 found in cache
+[INFO ] 2024-06-19 23:10:38.831 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\CodeLab\.cache\selenium\chromedriver\win64\125.0.6422.141\chromedriver.exe
+[DEBUG] 2024-06-19 23:10:40.176 [] BasicClientConnectionManager - Get connection for route {s}->https://api.github.com:443
+[DEBUG] 2024-06-19 23:10:40.266 [] DefaultClientConnectionOperator - Connecting to api.github.com:443
+[WARN ] 2024-06-19 23:10:40.359 [main] ReportManager - Jun 19, 2024 11:10:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2024-06-19 23:10:40.359 [main] ReportManager - WARNING: Unable to find an exact match for CDP version 125, returning the closest version; found: 123; Please update to a Selenium version that supports CDP version 125
+[DEBUG] 2024-06-19 23:10:40.759 [] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2024-06-19 23:10:40.762 [] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2024-06-19 23:10:40.762 [] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2024-06-19 23:10:40.763 [] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2024-06-19 23:10:40.763 [] DefaultClientConnection - Sending request: GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2024-06-19 23:10:40.763 [] wire -  >> "GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1[\r][\n]"
+[DEBUG] 2024-06-19 23:10:40.764 [] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2024-06-19 23:10:40.764 [] wire -  >> "Host: api.github.com[\r][\n]"
+[DEBUG] 2024-06-19 23:10:40.764 [] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2024-06-19 23:10:40.764 [] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.3)[\r][\n]"
+[DEBUG] 2024-06-19 23:10:40.765 [] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2024-06-19 23:10:40.765 [] wire -  >> "[\r][\n]"
+[DEBUG] 2024-06-19 23:10:40.765 [] headers - >> GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2024-06-19 23:10:40.765 [] headers - >> Accept: */*
+[DEBUG] 2024-06-19 23:10:40.765 [] headers - >> Host: api.github.com
+[DEBUG] 2024-06-19 23:10:40.765 [] headers - >> Connection: Keep-Alive
+[DEBUG] 2024-06-19 23:10:40.765 [] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.3)
+[DEBUG] 2024-06-19 23:10:40.765 [] headers - >> Accept-Encoding: gzip,deflate
+[INFO ] 2024-06-19 23:10:40.861 [] ReportManager - Loaded OpenCV "opencv_java490".
+[DEBUG] 2024-06-19 23:10:41.037 [] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2024-06-19 23:10:41.041 [] wire -  << "Server: GitHub.com[\r][\n]"
+[DEBUG] 2024-06-19 23:10:41.042 [] wire -  << "Date: Wed, 19 Jun 2024 20:10:42 GMT[\r][\n]"
+[DEBUG] 2024-06-19 23:10:41.042 [] wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[DEBUG] 2024-06-19 23:10:41.042 [] wire -  << "Cache-Control: public, max-age=60, s-maxage=60[\r][\n]"
+[DEBUG] 2024-06-19 23:10:41.042 [] wire -  << "Vary: Accept, Accept-Encoding, Accept, X-Requested-With[\r][\n]"
+[DEBUG] 2024-06-19 23:10:41.042 [] wire -  << "ETag: W/"f555193fa3ad6b356e0460aa454d3c8b0f22b94453e8ef5f1caddb509617675d"[\r][\n]"
+[DEBUG] 2024-06-19 23:10:41.043 [] wire -  << "Last-Modified: Tue, 11 Jun 2024 16:44:03 GMT[\r][\n]"
+[DEBUG] 2024-06-19 23:10:41.043 [] wire -  << "X-GitHub-Media-Type: github.v3; format=json[\r][\n]"
+[DEBUG] 2024-06-19 23:10:41.043 [] wire -  << "x-github-api-version-selected: 2022-11-28[\r][\n]"
+[DEBUG] 2024-06-19 23:10:41.043 [] wire -  << "Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset[\r][\n]"
+[DEBUG] 2024-06-19 23:10:41.043 [] wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] 2024-06-19 23:10:41.044 [] wire -  << "Strict-Transport-Security: max-age=31536000; includeSubdomains; preload[\r][\n]"
+[DEBUG] 2024-06-19 23:10:41.044 [] wire -  << "X-Frame-Options: deny[\r][\n]"
+[DEBUG] 2024-06-19 23:10:41.044 [] wire -  << "X-Content-Type-Options: nosniff[\r][\n]"
+[DEBUG] 2024-06-19 23:10:41.044 [] wire -  << "X-XSS-Protection: 0[\r][\n]"
+[DEBUG] 2024-06-19 23:10:41.044 [] wire -  << "Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin[\r][\n]"
+[DEBUG] 2024-06-19 23:10:41.045 [] wire -  << "Content-Security-Policy: default-src 'none'[\r][\n]"
+[DEBUG] 2024-06-19 23:10:41.045 [] wire -  << "Content-Encoding: gzip[\r][\n]"
+[DEBUG] 2024-06-19 23:10:41.045 [] wire -  << "X-RateLimit-Limit: 60[\r][\n]"
+[DEBUG] 2024-06-19 23:10:41.045 [] wire -  << "X-RateLimit-Remaining: 57[\r][\n]"
+[DEBUG] 2024-06-19 23:10:41.045 [] wire -  << "X-RateLimit-Reset: 1718830794[\r][\n]"
+[DEBUG] 2024-06-19 23:10:41.046 [] wire -  << "X-RateLimit-Resource: core[\r][\n]"
+[DEBUG] 2024-06-19 23:10:41.046 [] wire -  << "X-RateLimit-Used: 3[\r][\n]"
+[DEBUG] 2024-06-19 23:10:41.046 [] wire -  << "Accept-Ranges: bytes[\r][\n]"
+[DEBUG] 2024-06-19 23:10:41.046 [] wire -  << "Content-Length: 1094[\r][\n]"
+[DEBUG] 2024-06-19 23:10:41.046 [] wire -  << "X-GitHub-Request-Id: E62A:23E700:1C000F:1C2AB8:66733B41[\r][\n]"
+[DEBUG] 2024-06-19 23:10:41.046 [] wire -  << "[\r][\n]"
+[DEBUG] 2024-06-19 23:10:41.049 [] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2024-06-19 23:10:41.049 [] headers - << HTTP/1.1 200 OK
+[DEBUG] 2024-06-19 23:10:41.049 [] headers - << Server: GitHub.com
+[DEBUG] 2024-06-19 23:10:41.050 [] headers - << Date: Wed, 19 Jun 2024 20:10:42 GMT
+[DEBUG] 2024-06-19 23:10:41.050 [] headers - << Content-Type: application/json; charset=utf-8
+[DEBUG] 2024-06-19 23:10:41.050 [] headers - << Cache-Control: public, max-age=60, s-maxage=60
+[DEBUG] 2024-06-19 23:10:41.050 [] headers - << Vary: Accept, Accept-Encoding, Accept, X-Requested-With
+[DEBUG] 2024-06-19 23:10:41.050 [] headers - << ETag: W/"f555193fa3ad6b356e0460aa454d3c8b0f22b94453e8ef5f1caddb509617675d"
+[DEBUG] 2024-06-19 23:10:41.050 [] headers - << Last-Modified: Tue, 11 Jun 2024 16:44:03 GMT
+[DEBUG] 2024-06-19 23:10:41.050 [] headers - << X-GitHub-Media-Type: github.v3; format=json
+[DEBUG] 2024-06-19 23:10:41.051 [] headers - << x-github-api-version-selected: 2022-11-28
+[DEBUG] 2024-06-19 23:10:41.051 [] headers - << Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+[DEBUG] 2024-06-19 23:10:41.051 [] headers - << Access-Control-Allow-Origin: *
+[DEBUG] 2024-06-19 23:10:41.051 [] headers - << Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+[DEBUG] 2024-06-19 23:10:41.051 [] headers - << X-Frame-Options: deny
+[DEBUG] 2024-06-19 23:10:41.051 [] headers - << X-Content-Type-Options: nosniff
+[DEBUG] 2024-06-19 23:10:41.051 [] headers - << X-XSS-Protection: 0
+[DEBUG] 2024-06-19 23:10:41.051 [] headers - << Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+[DEBUG] 2024-06-19 23:10:41.051 [] headers - << Content-Security-Policy: default-src 'none'
+[DEBUG] 2024-06-19 23:10:41.051 [] headers - << Content-Encoding: gzip
+[DEBUG] 2024-06-19 23:10:41.051 [] headers - << X-RateLimit-Limit: 60
+[DEBUG] 2024-06-19 23:10:41.051 [] headers - << X-RateLimit-Remaining: 57
+[DEBUG] 2024-06-19 23:10:41.051 [] headers - << X-RateLimit-Reset: 1718830794
+[DEBUG] 2024-06-19 23:10:41.051 [] headers - << X-RateLimit-Resource: core
+[DEBUG] 2024-06-19 23:10:41.051 [] headers - << X-RateLimit-Used: 3
+[DEBUG] 2024-06-19 23:10:41.051 [] headers - << Accept-Ranges: bytes
+[DEBUG] 2024-06-19 23:10:41.051 [] headers - << Content-Length: 1094
+[DEBUG] 2024-06-19 23:10:41.051 [] headers - << X-GitHub-Request-Id: E62A:23E700:1C000F:1C2AB8:66733B41
+[DEBUG] 2024-06-19 23:10:41.072 [] RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+[DEBUG] 2024-06-19 23:10:41.073 [] wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xad][0x96]ao[0xdb]6[0x10][0x86][0xff][\n]"
+[DEBUG] 2024-06-19 23:10:41.073 [] wire -  << "[0xa1][0xa2][0x18][0x10][0xc4][0x92]e[0xd9][0xae]-[0xa0][0xe8][0x92][0xd8]I[0xb3]5[0xc9][0xda]d[0xd8][0xb0][0xb6]0([0xe9],[0xb1][0x95]H[0x96][0xa4][0xe2][0xba]F[0xfe][0xfb][0x8e]"
+[DEBUG] 2024-06-19 23:10:41.074 [] wire -  << "[0xb4][0xea]%[0xc2][0xe6]tv[0xbe][0x18][0x12]M=w<[0xde][0xbd]w+[0xaf]V[0xa5][0x17]{[0x85]1R[0xc7]A@%[0xf3]sf[0x8a]:[0xf1]SQ[0x5][\n]"
+[DEBUG] 2024-06-19 23:10:41.074 [] wire -  << "[0xa4][0xd0][0xc1]uA[0xe7][0xe6][0xf5][0xdb][0xe0][0xfa][0xf5][0xd1][0xe9][0xcd]lzyv~9[0xc5][0xbf]J[0xa0][0x1a]t[0x10][0xe][0xc6][0xe3]([0x1a][0x8d]F[0xde][0xa1]G[0xb5][0x6][0xa3]gO[0xc7][0xc][0xd6]DD[0xd7][0xb2][0x14]4k[0xa1][0xd7][0x8b]zg[0x97][0x1b][0xfc][0xea][0x15][0xa7][0x15][0x1c][0x96]4[0x81][0xf2][0xe]m[0x15][0xa6]*[[0x96][0xee][0x5]e{8[0xc][0xcd][0x83][0x91][0xdf][0xf3]{[0xdd]^[0xbf];[0xc]C[0xc4][0xb1][0xcc][0x8b]7Q[0xc2] [0xd5][0xa6][0x10][0xca][0x8b]W^)r[0xc6]1[0xfa]kx[0x87][0xa6][0x86][0x9][0xae][0xdf]'[0xc2]|l>[0xeb][0x87][0xa3][0xf1][0xa8]7[0xea][0x1d]z\d0[0xb3]$[0xef]br1|[[0x8d][0xbb][0x97][0x93]i[0xff][0xea]&_^M[0xce]_[0xda][0xd8][0xdf]RCU;[0xf6]n[0xf1]{[0x80]j[\r]*[0x15][0xdc][0x0]7[0xee]z[0x19][0xc7][0xdb][0x8b][0x86][0xa3]W[0xb7]/[0xfb]H[0xc8]U[0xc3]pfl[0xcc][0xb7][0xe5][0x86][0x85][0xe9][0xe0][0xa1][0xeb][0xcf][0x7][0xc7][0xe8][0xfc][0xf3][0xc1][0xe4][0xd1] R)[0xdb][0x1f][0xe3]7sQ[0x96]b[0x81][0xdc][0xf6]1[0x1e][0xa6][0xe5]V[0xd3][0xc1][0x6][0xb2][0x1]2[0x9e][0xef][0xf]D[0xc8]*[0x10][0xa6][0x0][0x8c]1[0x1e][0xdd][0xe6]I[0xce][0xf4]c[0xd9][0xbe][0xdd]U[0x7]Xa[0x10][0xb5][0xc1][0xbb][0xb5]H[0x8d][0xd7][0xa5][0xa0][0x9d][0xe7][0xad][0xb2][0xdc][0xe]m[0x10][0xe8][0xec][0x82][0xa3][0x9f]+W[0xc5][0x8e]]':UL[0xba],[0xdb]' [0xf]@[0x8][0x16]*[0xa7][0x9c]}[0xa3]{[0x83][0x11][0xa4][0x91][0xe7]dg[0x1f][0x7][0x1d][0x0]Ap[0x8b][0xa9][0xbe][0x17]iMX[0x5]R[0xb1][[0x9a].m[0x18][0x15][0xa4][0xc0]n[0xf1][0x8e][0xf6][0xa7][0xb7]P[0x8]7K[0x9]X|[0xc7][0xc2][0xd8][0xb]c[0x6]f4[0xab][0xac]H[0xcc]i[0xa9][0xe1][0xee][0xbe][0xe][0xbc][0x9b][0xce]>/&W'gp3[0xd4][0xfd]_[0xd8][0xd9][0x9f]G[0x16]@[0xf3][0x99]U3[0x84][0xb4]d[0x8]3+[0x7]3[0xc3][0xc2][0xaf][0x98]a[0xba][0xc0][0x1d][0x15]E42[0xff]u[0xa6]P[0xf6][0x1b][0xc3][0x87][0x9e]T[0xd0]H[0xfe]f)U@[\r][0xc6][0x81][0xe2].[0xcf][0xea]][0xa7];[0xec][0x84][0xe1]M8[0x8c][0xfb]Q[0x1c][0xf5][0xfe]B[0xb4][0xac][0x93][0x12]m[0xfd][0xc7][0xae]~[0xdc][0x8d][0xec][0xae]F[0xe5][0xe3][0xf7][0x1f][0xed][0x1]TB[0xcb][0xb6][0xfe][0xfe]xcj[0xbe]o[0x8b][0xf0]7&[0xf7][0xc2]6[0xdf][0xb7][0xb1][0x89][0xc8][0x96]x[0xfa]g[0xcf][0xc8][0x1f][0x5]5?irRP[0x9e]C[0xf6][0x81][0x1f][0x90]S[0xf6][0x95][0x1c]+[0xf1][0x19]89[0xc3][0xea] [0xd7]Km[0xa0][0xd2][0xe4][0x8d][0xc8]E[0x87][0xfc].3[0x8c][0x1e][0xc1][0x18]f[0xa4][0x2][0x92],[0xc9][0xcf][0x17]5[0xd6][0xee][0x9c][0x1e][0xe5][0xb4]Z[0x12][0xc6][0xc9][0xf7][0xae][0xfc]X[0xf3][0x91]uY[0x6][0xe1][0xb0]7[0xb0]VS"W[0xa0][0xf5]16[0x83])GoR[0xa8][0xb0][\n]"
+[DEBUG] 2024-06-19 23:10:41.074 [] wire -  << "[0x9c][0x1]ZT[0x90]q[0xaa][0xd5]x[0xb0][0x3]?[0x8c],[0xff][0xb8][0xae]$[0xc1]B[0xf5][0xa9][0xa4]i[0x1]~E[0xb1][0xc8]|Y[0xd6][0xd8][0xcb]t[0xec][0xde]:[0x9f][0xb0][0x91]d"[0xed][0xac]W[0xc9]\[0x89][0x8a]D[0xfe][0xd0][0x8f][0x88][0x11][0xf8][0xf0][0xc2][0xef]:w2[0x90][0xc0]3[0x8a]-c[0x7]oz[0xa3][0x8d]7[0x98][0xd2]~.D^[0x82][0x9f][0xd7]h:v[0xbf][0x8d][0xd9][0x8][0x9b]q[0xb7][0xf3]I[0x81][0xb3]m[0xdf]B[0xf7][0xb6][0xbf][0x3]/6[0xe]0[0x81][0xd1][0x90][0xac][0xae]b{[0xf2]NZ2[0x1b]qw[0xec][0xb1][0x9d][0x5][0xac]i[0xfb][0x10]=[0x81][0xd5][0xe1][0xc6]j[0x5][0xbe][0x11]<[0x9f][0x3][0x8b]es[0xe9][0x9]Uk[0xb3]]?[0xec]b[0x94][0xd1][0xae]{[\n]"
+[DEBUG] 2024-06-19 23:10:41.074 [] wire -  << "[0x9f][0xc0][0xf0][0xd8]e[0x17][0x93]P2[0xe]D[0x8b][0x92]el[0xce]R[0xa7][0xfa][0xeb][0xf4][0x15][0x5]M.D[0xc1]`[0x87][0xeb][0x8c]B[0x8b][0x9f][0xb][0x95][0x2][0xd6][0xcc][0x2];[0xec][0x4][0xfb][0x97][0x9d][0xf9]:s[0xac]#W[0x1e]{[0xf1]]q`I[0xc6]d[0xca]u[0x8d][0x9][0xf0][0xa5][0x6][0xb5]$[0x92]*T?[0x83]3[0x7][0xa1][0xb8]H[0xb3][0xc]2[0x1b]6[0x5][0xf8]?vg[0xb2][0xc0]q[0x98]Pb[0xb][0xdd]y[0xf1][0xeb]R1[0x9c]R[0xf4]%[0xcd][0xa1][0xd8][0xe5][0xa0]}[0xeb][0xc8][0xb9][0xd6]5[0x10]<[0x19][0xe8]'8[0x9b][0xcb][0x89]w[0xeb][0x89][0x9c][0xa0]RKr_[0xfb][0x9f][0xc0][0x0][0xa6][0xfa][0x7][0x8e]"w[0x9][0xb]r[0x82][0x13][0xa4]bIm[0x84][0xd2][0xd6][0xee][0x3]U[0xa9]h[0x86][0x85]V[0x0][0xc3]<dJ[0x1b]b[0xe7]M[0xb7][0xdb]f[0xc9][0xff][0xd7]4[0xab]9h[0xe4][0xe0][0x14]%[0xae][0xd1]V[0x9c][0x9a][0xf][0xe][0xe2][0x1f][0x16]G[0x14][0x7][0xbc]c[0xf8]G[0xb8][0x7][0xbd][0xc8][0xf7][0xfd]Vs[0xb4][0x12][0xe9][0xc6][0xa2]T[0xd4][0x1c][0xfb][0xd9][0xe0][0xee]o?[0x1][0xbf]Y[0x1b][\r][0x0][0x0]"
+[DEBUG] 2024-06-19 23:10:41.075 [] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2024-06-19 23:10:41.184 [] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@3484654b
+[DEBUG] 2024-06-19 23:10:41.184 [] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[INFO ] 2024-06-19 23:10:42.134 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                                     Test Method: 'AddToCartTest.addtoCart'                                                     
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-06-19 23:10:42.359 [] ReportManager - Engine Update check done for the day. 👍
+[INFO ] 2024-06-19 23:10:49.964 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: addtoCart'
+[INFO ] 2024-06-19 23:10:49.964 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                          Finished Execution of Test Method: 'AddToCartTest.addtoCart'                                          
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-06-19 23:10:50.082 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of closedriver configuration method                                             
+                                                           'AddToCartTest.Closedriver'                                                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[DEBUG] 2024-06-19 23:10:50.136 [Finalizer] DefaultClientConnection - Connection 0.0.0.0:58922<->140.82.121.5:443 closed
+[INFO ] 2024-06-19 23:10:50.204 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine tear down configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTearDown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-06-19 23:10:50.207 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
